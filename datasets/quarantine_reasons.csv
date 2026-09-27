@@ -1,0 +1,6 @@
+reason_code,description
+DUPLICATE_KEY,Duplicate transaction/customer/merchant key
+INVALID_SCHEMA,Required column missing or invalid type
+INVALID_STATUS,Status outside allowed domain
+INVALID_AMOUNT,"Amount is null, negative, or outside expected range"
+UNKNOWN_REFERENCE,Foreign key does not resolve to a known dimension

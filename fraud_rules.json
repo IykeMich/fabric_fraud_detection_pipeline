@@ -1,0 +1,32 @@
+{
+  "rules": [
+    {
+      "rule_id": "FR-001",
+      "rule_name": "RAPID_TRANSACTION_ACTIVITY",
+      "description": "4 or more successful transactions for the same customer within 3 minutes.",
+      "severity": "HIGH",
+      "enabled": true
+    },
+    {
+      "rule_id": "FR-002",
+      "rule_name": "IMPOSSIBLE_LOCATION_CHANGE",
+      "description": "Successful transactions for the same customer in different cities within 10 minutes.",
+      "severity": "HIGH",
+      "enabled": true
+    },
+    {
+      "rule_id": "FR-003",
+      "rule_name": "HIGH_VALUE_NEW_DEVICE",
+      "description": "Successful transaction >= NGN 300000 from a device not previously associated with the customer.",
+      "severity": "HIGH",
+      "enabled": true
+    },
+    {
+      "rule_id": "FR-004",
+      "rule_name": "HIGH_RISK_MERCHANT",
+      "description": "Successful transaction at a high-risk merchant for a high-risk customer.",
+      "severity": "MEDIUM",
+      "enabled": true
+    }
+  ]
+}

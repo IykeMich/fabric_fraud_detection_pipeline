@@ -1,0 +1,64 @@
+{
+  "configs": [
+    {
+      "dataset_name": "customers",
+      "file": "customers.csv",
+      "key": [
+        "customer_id"
+      ],
+      "source_format": "CSV",
+      "target_schema": "bronze",
+      "target_table": "customers",
+      "load_method": "upsert",
+      "active": true
+    },
+    {
+      "dataset_name": "merchants",
+      "file": "merchants.csv",
+      "key": [
+        "merchant_id"
+      ],
+      "source_format": "CSV",
+      "target_schema": "bronze",
+      "target_table": "merchants",
+      "load_method": "upsert",
+      "active": true
+    },
+    {
+      "dataset_name": "terminals",
+      "file": "terminals.csv",
+      "key": [
+        "terminal_id"
+      ],
+      "source_format": "CSV",
+      "target_schema": "bronze",
+      "target_table": "terminals",
+      "load_method": "upsert",
+      "active": true
+    },
+    {
+      "dataset_name": "transactions",
+      "file": "transactions.csv",
+      "key": [
+        "transaction_id"
+      ],
+      "source_format": "CSV",
+      "target_schema": "bronze",
+      "target_table": "transactions",
+      "load_method": "append",
+      "active": true
+    },
+    {
+      "dataset_name": "dim_date_seed",
+      "file": "dim_date_seed.csv",
+      "key": [
+        "date_key"
+      ],
+      "source_format": "CSV",
+      "target_schema": "bronze",
+      "target_table": "dim_date_seed",
+      "load_method": "upsert",
+      "active": true
+    }
+  ]
+}

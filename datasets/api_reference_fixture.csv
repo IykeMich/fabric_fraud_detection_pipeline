@@ -1,0 +1,11 @@
+currency_code,currency_name,country_or_region,base_rate_to_ngn,effective_date
+NGN,Nigerian Naira,Nigeria,1.0,2026-09-01
+USD,US Dollar,United States,1540.25,2026-09-01
+GBP,British Pound,United Kingdom,2055.1,2026-09-01
+EUR,Euro,Eurozone,1802.45,2026-09-01
+ZAR,South African Rand,South Africa,84.15,2026-09-01
+GHS,Ghanaian Cedi,Ghana,127.8,2026-09-01
+KES,Kenyan Shilling,Kenya,11.95,2026-09-01
+AED,UAE Dirham,United Arab Emirates,419.25,2026-09-01
+CAD,Canadian Dollar,Canada,1112.6,2026-09-01
+AUD,Australian Dollar,Australia,1010.35,2026-09-01
